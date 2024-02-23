@@ -125,7 +125,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Marin Zhao."
-    subtitle: "It's my first time to make a personal website."
+    subtitle: "It's my first personal website."
     content: "Begin to be a thinker. Enjoy learning foreign languages."
     image: /images/hero.svg
     bottomImage:
@@ -153,16 +153,18 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a undergraduate major in statistics. It's my fourth year in the school, be faced with the important choice. I recently have a strong interest in the data analysis as a future occupition. 
+      I am a undergraduate major in statistics. It's my fourth year in the school, be faced with a new life experience. I recently have a strong interest in the data analysis as a future occupition. 
 
-      I am currently working on my undergraduate thesis that use the TS analysis method to research the people population.
+      I am currently working on my undergraduate thesis using the TS analysis method to research the people population.
     skills:
       enable: true
       title: "Here are some hobbies I focus on recently:"
       items:
-        - "Philosophy"
-        - "Foreign Languages"
         - "Data Analysis"
+        - "Foreign Languages"
+        - "Philosophy"
+        - "Social Science"
+        
 
   # Education
   education:
