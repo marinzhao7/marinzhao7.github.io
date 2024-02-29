@@ -5,10 +5,10 @@ draft: false
 description: "My gallery :earth_asia:"
 layout: "gallery"
 galleryImages:
- - src: /gallery/wanderer/1.png
- - src: /gallery/wanderer/2.png
- - src: /gallery/wanderer/3.png
- - src: /gallery/wanderer/4.png
- - src: /gallery/wanderer/5.png
- - src: /gallery/wanderer/6.png
+ - src: /gallery/W-3.png
+ - src: /gallery/W-5.png
+ - src: /gallery/W-22.png
+ - src: /gallery/W-31.png
+ - src: /gallery/W-48.png
+ - src: /gallery/W-57.png
 ---
