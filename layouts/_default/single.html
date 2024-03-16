@@ -14,6 +14,32 @@
 <section id="single">
   <div class="container">
     <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">{{ .Title }}</h1>
+            <div class="text-center">
+              {{ .Params.author }} 
+              <small>|</small>
+              {{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }}
+
+              {{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
+              <span id="readingTime">
+                {{ .Site.Params.singlePages.readTime.content | default "min read" }}
+              </span>
+              {{ end }}
+            </div>
+          </div>
+          {{ if .Params.image }}
+          <div class="featured-image">
+            <img class="img-fluid mx-auto d-block" src="{{ .Params.image }}" alt="{{ .Title }}">
+          </div>
+          {{ end }}
+          <article class="page-content  p-2">
+          {{ .Content | emojify }}
+          </article>
+        </div>
+      </div>      
       <div class="col-sm-12 col-md-12 col-lg-3">
         <div id="stickySideBar" class="sticky-sidebar">
           {{ if .Params.toc | default true}}
@@ -64,33 +90,6 @@
           {{ end }}
         </div>
       </div>
-      <div class="col-sm-12 col-md-12 col-lg-9">
-        <div class="pr-lg-4">
-          <div class="title mb-5">
-            <h1 class="text-center mb-4">{{ .Title }}</h1>
-            <div class="text-center">
-              {{ .Params.author }} 
-              <small>|</small>
-              {{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }}
-
-              {{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
-              <span id="readingTime">
-                {{ .Site.Params.singlePages.readTime.content | default "min read" }}
-              </span>
-              {{ end }}
-            </div>
-          </div>
-          {{ if .Params.image }}
-          <div class="featured-image">
-            <img class="img-fluid mx-auto d-block" src="{{ .Params.image }}" alt="{{ .Title }}">
-          </div>
-          {{ end }}
-          <article class="page-content  p-2">
-          {{ .Content | emojify }}
-          </article>
-        </div>
-      </div>
-
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-9 p-4">
