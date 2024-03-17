@@ -159,8 +159,6 @@
     border-radius: .7rem;
     padding: .7rem 1rem;
     margin-bottom: 1em;
-    overflow-y: scroll;
-    scrollbar-width: none;
 }
 
 #single .sticky-sidebar {
