@@ -193,6 +193,8 @@
 /*TOC*/
 #single aside.toc {
     padding: .7rem 1rem;
+    max-height: 50vh;
+    overflow-y: scroll;
 }
 
 #single aside.toc h5 {
