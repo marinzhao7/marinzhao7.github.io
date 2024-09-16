@@ -7,7 +7,7 @@ author: "Gurusabarish"
 tags:
   - Sample
 image: /images/post.jpg
-description: ""
+description: "A summary of sample webblogs on writing rules."
 toc: 
 ---
 # Markdown Syntax
