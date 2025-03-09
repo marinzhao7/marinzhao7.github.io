@@ -153,19 +153,15 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am an undergraduate majoring in statistics. It's my fourth year in the school, be faced with a new life experience. I recently have a strong interest in data analysis as a future occupition. 
-
-      I am currently working on my undergraduate thesis using the TS analysis methods to research the people population.
+      I am a graduate majoring in statistics. I recently have a strong interest in deep learning as the centre of my future education. 
     skills:
       enable: true
       title: "Here are some hobbies I focus on recently:"
       items:
         - "Data Analysis"
-        - "Foreign Languages"
-        - "Reading"
-        - "Social Science"
-        - "Calligraphy"
-        
+        - "Deep Learning"
+        - "Foreign Languages(Japanese/French)"
+        - "Reading"                
 
   # Education
   education:
@@ -178,7 +174,7 @@ params:
           name: "School of Mathematics and Statistics, Wuhan University"
           url: "https://maths.whu.edu.cn/"
         date: "2020 - 2024"
-        GPA: "3.68 out of 4.0"
+        GPA: "3.69 out of 4.0"
         content: |-
           The major courses includes Mathematical Analysis, Advanced Algebra and Analytic Geometry, Probability Theory, Real Analysis, Multivariate Statistical Analysis.
           - Average scores with 87
