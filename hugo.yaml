@@ -160,8 +160,8 @@ params:
       items:
         - "Data Analysis"
         - "Deep Learning"
-        - "Foreign Languages(Japanese/French)"
-        - "Reading"                
+        - "Reading"
+        - "Foreign Languages (Japanese/French)"                
 
   # Education
   education:
@@ -232,7 +232,7 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
+      github: https://github.com/marinzhao7
       twitter: https://twitter.com
 
 
